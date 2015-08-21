@@ -1,0 +1,295 @@
+.LeftRightSuperSelect{
+    padding: 20px;font-size: 13px;height: 480px;
+}
+.leftUlSelect-nav{
+    width: 15px;
+    float: right;
+    margin-left: -15px;
+    margin-top: 21px;
+    position: relative;
+}
+.myUlLeft{
+    width: 150px;
+    margin-top: 10px;
+    list-style: none;
+    border: 1px solid rgb(186, 181, 181);
+    height: 355px;
+    overflow: auto;
+    padding: 0;
+    padding-top: 25px;
+}
+.myUlLeft li:hover{
+    background-color: rgb(193, 222, 249);;
+    cursor: pointer;
+}
+.myUlLeft li{
+    line-height: 25px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.myUlLeft .hover{
+    background-color: rgb(193, 222, 249);;
+    cursor: pointer;
+}
+.myUlRight{
+    width: 150px;
+    height: 418px;
+    margin-top: 15px;
+    list-style: none;
+    border: 1px solid  rgb(186, 181, 181);
+    overflow: auto;
+    padding: 0;
+}
+.myUlRight li:hover{
+    background-color: rgb(250, 225, 186);
+}
+.myUlRight li{
+    line-height: 25px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.myUlRight .to_close{
+    background-image: url("/images/to_close.png");
+    background-repeat: no-repeat;
+    height: 10px;
+    float: right;
+    width: 10px;
+    margin-right: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+.toRight{
+    /*background-image: url("/images/to.png");*/
+    height: 25px;
+    width: 35px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.toRight:hover{
+    opacity: 0.7;
+}
+.icon_search{
+    height: 20px;
+    width: 20px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    margin-top: -22px;
+    margin-left: 5px;
+}
+.icon_search:hover{
+    opacity: 0.7;
+}
+.icon_search:before, .icon_search:after {
+    content: '';
+    height: 50%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.icon_search:before {
+    width: 50%;
+    border: 2px #333 solid;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+}
+
+.icon_search:after {
+    width: 17.5%;
+    background: #333;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    top: 42.5%;
+    left: 60%;
+}
+.search{
+    width: 152px;
+    padding: 5px;
+    margin-top: 15px;
+    height: 25px;
+    padding-left: 27px;
+    background-position: 4px;
+    border: 1px solid rgb(186, 181, 181);
+    display: block;
+}
+.ln-disabled .first_li{
+    display: none;
+}
+.first_li{
+    display: none;
+}
+.ln-selected .first_li{
+    width: 126px;
+    height: 20px;
+    padding: 5px 12px;
+    background-color: rgb(232, 232, 232);
+    line-height: 20px;
+    position: absolute;
+    top: -10px;
+    left: -136px;
+    z-index: -10;
+    display: block;
+}
+.ac .LeftRight_search_result{
+    padding: 8px;
+    padding-left: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.myUlRight .icon_close {
+    height: 17px;
+    width: 17px;
+    display: block;
+    position: relative;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.myUlRight .icon_close:before, .myUlRight .icon_close:after {
+    content: '';
+    height: 20%;
+    width: 100%;
+    display: block;
+    background: red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 0px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+}
+
+.myUlRight .icon_close:after {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+.first_li_kong{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+div.ac {
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    position: absolute;
+    display: none;
+    overflow: auto;
+}
+
+div.ac > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+div.ac > ul > li {
+    margin: 0px;
+    list-style-type: none;
+    background-color: white;
+    word-break: break-all;
+    font-family: helvetica, arial, "Courier New", sans-serif;
+}
+
+div.ac > ul > li > div {
+    display: table-row;
+    width: 100%;
+}
+
+div.ac > ul > li > div em {
+    background-color: #B0E2FF;
+    font-style: normal;
+}
+
+div.ac > ul > li.normal {
+    padding: 2px 0px 2px 2px;
+}
+
+div.ac > ul > li.normal > div > span{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.ac > ul > li.iconList {
+    padding: 0px 0px 0px 2px;
+}
+
+div.ac > ul > li.iconList > div > div {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+div.ac > ul > li.iconList > div > div > img {
+    display: table;
+    display: table-cell\9;
+}
+
+div.ac > ul > li.iconList > div > span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.ac > ul > li.selected {
+    background-color: #DCDCDC;
+}
+/*
+	STYLE SHEET FOR IHWY JQUERY LISTNAV PLUGIN V 2.0, 3/2/2009
+
+	For more information, visit http://www.ihwy.com/Labs/jquery-listnav-plugin.aspx
+*/
+
+
+/* default styling example
+----------------------------------------------------------------- */
+
+.listNav { margin:0 0 10px; }
+
+.ln-letters { overflow:hidden; }
+.ln-letters a {  font-size: 12px; font-weight: bold;display: inherit;text-decoration: none; width: 6px;}
+.ln-letters a.ln-last { border:none }
+/*.ln-letters a:hover,*/
+/*.ln-letters a.ln-selected { background-color:#eaeaea; }*/
+.ln-letters a.ln-disabled { color:#ccc; }
+.ln-letter-count { text-align:center; font-size:0.8em; line-height:1; margin-bottom:3px; color:#336699; }
+
+
+/* demo-specific
+----------------------------------------------------------------- */
+
+#demoThree-nav .ln-letters a { border:none; border-top:2px solid pink; color:red; }
+#demoThree-nav .ln-letters a.ln-last { border-right:none; }
+#demoThree-nav .ln-letters a:hover,
+#demoThree-nav .ln-letters a.ln-selected { border-top:2px solid red; background-color:pink; color:White !important; }
+#demoThree-nav .ln-letters a.ln-disabled { color:pink; }
+#demoThree-nav .ln-letters a.ln-disabled:hover { color:white; }
+#demoThree-nav .ln-letter-count { color:red; }
+
+#demoThree li { color:pink; }
+#demoThree li a { color:red; text-decoration:none; }
+#demoThree li a:hover { text-decoration:underline; }
+
+#demo4 #listWrapper { width:650px }
+#demoFour li { float:left; }
+#demoFour a { display:block; text-align:center; width:85px; border:1px solid silver; padding:10px; margin:0 10px 10px 0; text-decoration:none }
+#demoFour a:hover { background-color:#eee }
+

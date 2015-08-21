@@ -1,0 +1,32 @@
+<meta charset="UTF-8">
+<link type="text/css" href="leftRightSelect.css" rel="stylesheet">
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="leftRightSelect.js"></script>
+<script type="text/javascript" src="mySelect.js"></script>
+<body>
+
+<div class="LeftRightSuperSelect" id="LeftRightSuperSelect">
+    <div style="float: left">
+        <span style="font-weight: bolder">待选</span><br/>
+        <input type="text" class="search" id="to_search"/>
+        <i class="icon_search"></i>
+
+        <div id="leftUlSelect-nav" class="leftUlSelect-nav">
+        </div>
+        <div>
+            <ul id="leftUlSelect" class="myUlLeft">
+                <div class="first_li_kong"></div>
+            </ul>
+        </div>
+    </div>
+
+    <div style="float: right">
+        <span style="font-weight: bolder">右选择器</span>
+
+        <div>
+            <ul id="rightUlSelect" class="myUlRight"></ul>
+        </div>
+    </div>
+    <div id="addOne" class="toRight"><span>>>>>></span></div>
+</div>
+</body>
